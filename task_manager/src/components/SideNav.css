@@ -1,0 +1,144 @@
+/* Add this CSS to your SideNav.css or your global stylesheet */
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Toggle Styles */
+  
+  #viewport {
+    padding-left: 250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  #content {
+    width: 100%;
+    position: relative;
+    margin-right: 0;
+  }
+  
+  /* Sidebar Styles */
+  
+  #sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #212a2e;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  #sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+  }
+  
+  #sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+  }
+  
+  #sidebar header a:hover {
+    color: #fff;
+  }
+  
+  #sidebar .nav a {
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+    font-size: 14px;
+    margin-left: 5px;
+    padding: 16px 24px;
+  }
+  
+  #sidebar .nav a:hover {
+    background: #59bcff;
+    color: #09090a;
+  }
+  
+  /* Style the active Nav.Link */
+  #sidebar .nav .active {
+    background-color: #59bcff ;
+    color: #000000; /* Change this to your desired active color */
+    font-weight: bold; /* You can adjust this based on your design preference */
+  }
+  
+  /* Optional: Hover effect for Nav.Link */
+  #sidebar .nav a:hover {
+    color: #59bcff; /* Change this to your desired hover color */
+    color: #09090a;
+  }
+
+  /* Add this CSS to your SideNav.css or your global stylesheet */
+
+/* Style for the search form group */
+#search {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the search input */
+  #search input {
+    flex-grow: 1;
+    margin-right: 0px;
+  }
+  
+  
+  
+  /* Style for the search icon */
+  #search .icon {
+    color: #6c757d; /* Adjust the color as needed */
+    cursor: pointer;
+    border: 1px solid#263238;
+    
+  }
+  
+  /* Optional: Hover effect for the search icon */
+  #search .icon:hover {
+    color: #007bff; /* Change this to your desired hover color */
+  }
+
+
+  /* Style for the Action column */
+.Action {
+    display: flex-end;
+    justify-content: center;
+    justify-content:space-evenly; /* This will add space between the two buttons */
+    
+  }
+  
+  /* Optional: Adjust the margin for the Edit button */
+  .Action .btn-primary {
+    margin-right: 5px; /* Change this to your desired space between buttons */
+    background-color: #fff;
+    color:#000000;
+    
+  }
+  
+  /* Optional: Adjust the margin for the Delete button */
+  .Action .btn-danger {
+    margin-left: 5px; /* Change this to your desired space between buttons */
+    background-color: #fff;
+    color:#000000;
+    border:none;
+  }
+
+  .dashcontent{
+    --bs-gutter-x: 15.5rem;
+  }
+  
+  
